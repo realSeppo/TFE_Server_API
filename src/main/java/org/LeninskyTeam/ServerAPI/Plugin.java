@@ -1,6 +1,6 @@
 package org.LeninskyTeam.ServerAPI;
 
-public interface Plugin {
-    public void onEnable();
-    public void onDisable();
+public abstract class Plugin {
+    public abstract void onEnable();
+    public abstract void onDisable();
 }
